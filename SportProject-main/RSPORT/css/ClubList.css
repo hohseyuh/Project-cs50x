@@ -1,0 +1,257 @@
+#BreadCrump{
+    background-image: url(images/chelsea.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+#BreadCrump::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background: linear-gradient(#111111 40%, #fbc02d);
+    opacity: 0.8;
+    z-index: -2;
+}
+.Body{
+   text-align: center;
+   z-index: 59;
+
+}
+.Body h1{
+    color: white;
+    font-size: 50px;
+
+    font-family: 'Outfit', sans-serif;
+}
+.Body p{
+    color: white;
+    font-size: 20px;
+    filter: grayscale(50%);
+
+    font-family: 'Outfit', sans-serif;
+}
+.Body .shpp{
+    color: #FBC02D;
+    font-size: 20px;
+
+    font-family: 'Outfit', sans-serif;
+}
+.teamAll{
+width: 50%;
+margin: auto;
+}
+
+.teamAll img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.teamAll  h2{
+    font-size: 30px;
+font-weight: 600;
+    font-family: 'Outfit', sans-serif
+}
+.righttopTeam {
+    display: flex;
+    justify-content: space-between;
+}
+.singleteaminfo{
+    margin-bottom: 20px;
+}
+.singleteaminfo strong{
+    display: block;
+    color: #505050;
+    font-size: 20px;
+
+    font-family: 'Outfit', sans-serif;
+}
+.singleteaminfo span{
+    display: block;
+    color: #505050;
+    font-size: 20px;
+
+    font-family: 'Outfit', sans-serif;
+}
+.rightbottomTeam{
+    display: flex;
+    justify-content: space-between;
+}
+.singletm h2{
+    margin: 0 auto 15px;
+    font-size: 24px;
+    width: 120px;
+    height: 120px;
+    border-top: 4px solid #fbc02d;
+    border-bottom: 4px solid #ddd;
+    line-height: 120px;
+    text-align: center;
+    border-radius: 50%;
+}
+.singletm h3{
+    font-size: 20px;
+}
+#FC{
+    padding: 50px 0;
+}
+.clubhistory h3{
+    color: #111111;
+    font-size: 28px;
+        font-weight: 600;
+        font-family: 'Outfit', sans-serif;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .clubhistory h3::after{
+        height: 4px;
+        left: 0;
+        position: absolute;
+        content: "";
+        bottom: 3px;
+        background: #fbc02d;
+        width: 50%;
+    
+    
+        
+    }
+    #historyy{
+        padding: 50px 0;
+    }
+    .clubhistory h3::before{
+        height: 4px;
+        right: 0;
+        position: absolute;
+        content: "";
+      bottom: 3px;
+        background: #999999;
+        width: 50%;
+        
+    }
+    .clubhistory p{
+        color: #000;
+        font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+        font-family: 'Outfit', sans-serif;
+    }
+    .tabLinks{
+        border: 1px solid #fbc02d;
+        padding: 6px 30px;
+        background-color: transparent;
+        outline: none;
+        color: #111111;
+        font-size: 20px;
+        transition: 0.5s;
+            font-weight: 500;
+            font-family: 'Outfit', sans-serif;
+    }
+    .tabLinks:focus{
+        color: #fbc02d;
+    }
+    .tabLinks:hover{
+        color: #fbc02d;
+    }
+    thead th{
+        text-align: center;
+        font-size: 20px;
+    }
+    tbody{
+        text-align: center;
+        
+    }
+
+    tbody tr .imgg{
+        width: 13%;
+
+    }
+    tbody tr td img{
+        width: 100%;
+        border: 4px solid #fbc02d;
+    }
+    td a{
+        text-decoration: none;
+        color: #000;
+        font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    display: inline-block;
+    margin-top: 60px;
+        font-family: 'Outfit', sans-serif;
+    }
+    td span{
+    display: inline-block;
+font-size: 20px;
+    margin-top: 60px;
+
+    }
+.singlechmp{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-top: 2px solid #fbc02d;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20PX;
+}
+.info span{
+    color: #FBC02D;
+    font-size: 50px;
+        font-weight: 500;
+        font-family: 'Outfit', sans-serif;
+}
+
+  .wear{
+    width: 15%;
+  }
+  .wear img{
+    width: 100%;
+  }
+  .gallery{
+    position: relative;
+    margin-bottom: 20px;
+    
+  }
+  .gallery:hover::before{
+    opacity: 1;
+    cursor: pointer;
+  }
+  .gallery:hover .icon{
+    opacity: 1;
+  }
+  .gallery::before{
+    position: absolute;
+    content: "";
+    background-color: #fbc12dbd;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    opacity: 0;
+  }
+  .gallery img{
+    width: 100%;
+  }
+  .Tab{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+  }
+ 

@@ -1,0 +1,172 @@
+#BreadCrump{
+    background-image: url(images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+#BreadCrump::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background: linear-gradient(#111111 40%, #fbc02d);
+    opacity: 0.8;
+    z-index: -2;
+}
+.Body{
+   text-align: center;
+   z-index: 59;
+
+}
+.Body h1{
+    color: white;
+    font-size: 50px;
+
+    font-family: 'Outfit', sans-serif;
+}
+.Body p{
+    color: white;
+    font-size: 20px;
+    filter: grayscale(50%);
+
+    font-family: 'Outfit', sans-serif;
+}
+.Body .shpp{
+    color: #FBC02D;
+    font-size: 20px;
+
+    font-family: 'Outfit', sans-serif;
+}
+#Location {
+   
+    padding: 80px 0;
+  }
+  #Location .container .LocationAll iframe {
+    width: 100%;
+  }
+  .InfoAll{
+    background-color: #3E3E3E;
+    padding: 20px;
+  }
+  .singleinfo{
+    border: 1px solid #fbc02d;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .singleinfo p{
+    margin-bottom: 0;
+    color: #CCCCCC;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+
+  }
+  .singleinfo h4{
+    
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Outfit', sans-serif;
+    margin: 20px 0;
+
+  }
+  .icon i{
+    color: #FBC02D;
+    font-size: 40px;
+  }
+  .singleinfo a{
+    text-decoration: none;
+    display: block;
+    color: #CCCCCC;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+  }
+  #ContactForm {
+
+    padding: 80px 0;
+  }
+  #ContactForm .container .ContactFormAll h4 {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    color: #000;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+  }
+  #ContactForm .ContactFormAll h4::after{
+    height: 4px;
+    left: 0;
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    background: #fbc02d;
+    width: 50%;
+
+
+
+    
+}
+#ContactForm .ContactFormAll h4::before{
+    height: 4px;
+    right: 0;
+    position: absolute;
+    content: "";
+  bottom: -3px;
+    background: #999999;
+    width: 50%;
+    
+}
+  #ContactForm .container .ContactFormAll form .inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  #ContactForm .container .ContactFormAll form .inputs input {
+    border: none;
+    
+    
+    background-color: #F5F5F5;
+    padding: 20px 30px;
+    width: 100%;
+    font-size: 20px;
+    color: #AAAAAA;
+  }
+  #ContactForm .container .ContactFormAll form .inputs input:focus {
+    outline-color: #FBC02D;
+  }
+  #ContactForm .container .ContactFormAll form textarea {
+    border: none;
+    
+    background-color: #F5F5F5;
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: #AAAAAA;
+  }
+  #ContactForm .container .ContactFormAll form textarea:focus {
+    outline-color: #FBC02D;
+  }
+  #ContactForm .container .ContactFormAll form .submit {
+
+    margin-top: 30px;
+  }
+  #ContactForm .container .ContactFormAll form .submit button {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #000;
+    background-color: #FBC02D;
+    padding: 20px;
+    outline: none;
+    border: none;
+    position: relative;
+    width: 20%;
+    z-index: 2;
+  }
+  .submit button:hover {
+    color: #FBC02D;
+    background-color: #0000;
+  }

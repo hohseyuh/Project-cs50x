@@ -1,0 +1,64 @@
+.Form{
+    background-color: rgba(255, 251, 251, 0.651);
+    padding: 50px 0;
+}
+.Form .ForrmAll h2{
+text-align: center;
+font-weight: 400;
+font-weight: 500;
+
+}
+
+.FormAccount .singleForm input {
+    width: 100%;
+    height: 5vh;
+    outline: none;
+    border: 1px solid #AAAAAA;
+    padding: 20PX 10px;
+}
+.FormAccount .singleForm textarea{
+    width: 100%;
+    height: 30vh;
+    outline: none;
+    border: 1px solid #AAAAAA;
+    padding: 10px;
+}
+.FormAccount .singleForm {
+    margin-bottom: 20px;
+} 
+
+.Submit button{
+width: 100%;
+margin-bottom: 15px;
+border: none;
+outline: none;
+padding: 15px 0;
+font-size: 20px;
+font-weight: 500;
+}
+.sbmt{
+    background-color: #A90432;
+    color: white;
+}
+.clear{
+    background-color: #FDB912;
+
+    color: black;
+}
+.Contact .SingleContact{
+
+
+background-color: white;
+border: 1px solid #e4dfdf;
+padding: 10px;
+}
+.Contact .SingleContact a{
+    color: black;
+    display: flex;
+    align-items: center;
+gap: 10px;
+    text-decoration: none;
+}
+.Contact {
+    margin-top: 20px;
+}

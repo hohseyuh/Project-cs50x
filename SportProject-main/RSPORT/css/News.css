@@ -1,0 +1,217 @@
+#BreadCrump{
+    background-image: url(/images/blog-left.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+#BreadCrump::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background: linear-gradient(#111111 40%, #fbc02d);
+    opacity: 0.8;
+    z-index: -2;
+}
+.Body{
+   text-align: center;
+   z-index: 59;
+
+}
+.Body h1{
+    color: white;
+    font-size: 50px;
+
+    font-family: 'Poppins', sans-serif;
+}
+#AllBlog{
+    padding: 50px 0;
+}
+.Body p{
+    color: white;
+    font-size: 20px;
+    filter: grayscale(50%);
+
+    font-family: 'Poppins', sans-serif;
+}
+.Body .shpp{
+    color: #FBC02D;
+    font-size: 20px;
+
+    font-family: 'Poppins', sans-serif;
+}
+.searchh{
+    position: relative;
+    margin-bottom: 50px;
+}
+.searchh input{
+border: none;
+outline: none;
+background-color: #F5F5F5;
+padding: 10px 20px;
+font-size: 18px;
+font-weight: 500;
+width: 100%;
+z-index: -1;
+}
+.searchh i{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    z-index: 1;
+}
+.categories {
+    margin-bottom: 50px;
+}
+.categories h3{
+    background-color: #FBC02D;
+    padding: 15px ;
+    font-family: 'Poppins', sans-serif;
+margin-bottom: 30px;
+    font-size: 22px;
+}
+.categories ul{
+    padding-left: 0;
+}
+.categories ul li a{
+    text-decoration: none;
+    color: #505050;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.categories ul li{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.categories ul li::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #d5d1d1;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.recent h3{
+    background-color: #FBC02D;
+    padding: 15px ;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+
+    font-size: 22px;
+} 
+.singlerecent{
+    display: flex;
+    position: relative;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.recentimg img{
+    width: 100%;
+}
+.singlerecent::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #d5d1d1;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+.recentinfo a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 8px;
+}
+.date span{
+    color: #505050;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.newphoto img{
+    width: 100%;
+}
+.newscontent h2{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+
+}
+.singlenews{
+    margin-bottom: 20px;
+}
+.newscontent a{
+    border:  2px solid #FBC02D;
+    padding:5px 20px;
+    color: #505050;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.newscontent a:hover{
+    background-color: #FBC02D;
+    color: #000;
+}
+#Footer {
+    background-color: #000;
+        padding: 100px;
+        position: relative;
+        z-index: 1;
+      }
+      #Footer::before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #000000;
+        opacity: 0.7;
+      }
+      #Footer .container .row .singleFooterArea {
+        text-align: left;
+      }
+      #Footer .container .row .singleFooterArea h5 {
+        font-size: 28px;
+        font-family: "Playfair Display", serif;
+        color: #fff;
+        margin-bottom: 30px;
+      }
+      #Footer .container .row .singleFooterArea ul {
+        padding: 0;
+      }
+      #Footer .container .row .singleFooterArea ul li {
+        line-height: 45px;
+        list-style: none;
+        text-decoration: none;
+        font-size: 23px;
+        color: #AAAAAA;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+      #Footer .container .row .singleFooterArea ul li i {
+        margin-right: 10px;
+      }
+      #Footer .container .row .singleFooterArea ul li a {
+        text-decoration: none;
+        font-size: 23px;
+        color: #AAAAAA;
+        font-family: "Source Sans Pro", sans-serif;
+      }/*# sourceMappingURL=style.css.map */

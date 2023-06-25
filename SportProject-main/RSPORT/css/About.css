@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #A90432;
+}
+.HeaderAll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo img{
+    width: 70%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    transition: 0.5S;
+}
+nav a:hover{
+    color: #FBC02D;
+    cursor: pointer;
+}
+.search {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.search i{
+    color: #fff;
+    font-size: 22px;
+    transition: 0.5S;
+}
+.search i:hover{
+    color: #FBC02D;
+    cursor: pointer;
+}#BreadCrump{
+    background-image: url(images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+#BreadCrump::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background: linear-gradient(#111111 40%, #fbc02d);
+    opacity: 0.8;
+    z-index: -2;
+}
+.Body{
+   text-align: center;
+   z-index: 59;
+
+}
+.Body h1{
+    color: white;
+    font-size: 50px;
+
+    font-family: 'Outfit', sans-serif;
+}
+.Body p{
+    color: white;
+    font-size: 20px;
+    filter: grayscale(50%);
+
+    font-family: 'Outfit', sans-serif;
+}
+.Body .shpp{
+    color: #FBC02D;
+    font-size: 20px;
+
+    font-family: 'Outfit', sans-serif;
+}
+
+.maininfoabout  h3{
+    color: #111111;
+    font-size: 28px;
+        font-weight: 600;
+        font-family: 'Outfit', sans-serif;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .maininfoabout h3::after{
+        height: 4px;
+        left: 0;
+        position: absolute;
+        content: "";
+        bottom: 3px;
+        background: #fbc02d;
+        width: 50%;
+    
+    
+        
+    }
+    .maininfoabout h3::before{
+        height: 4px;
+        right: 0;
+        position: absolute;
+        content: "";
+      bottom: 3px;
+        background: #999999;
+        width: 50%;
+        
+    }
+    .aboutInfo  p{
+        color: #505050;
+        font-size: 18px;
+           
+            font-family: 'Outfit', sans-serif;
+    }
+    .aboutimg img{
+        width: 100%;
+    }
+    #OurClub{
+        padding: 50px 0;
+    }
+    #History{
+        background-color: #fbc02d;
+    }
+    .vision{
+       display: flex;
+       justify-content: center;
+       gap: 30px; 
+       margin-bottom: 30px;
+    }
+    .allrightsign{
+        margin: 50px 0;
+    }
+    .allrightsign p{
+        color: #000;
+        
+        
+        font-size: 18px;
+        font-style: italic;
+            font-family: 'Outfit', sans-serif;
+            line-height: 30px;
+    } 
+    .singlevision{
+        background-color: #7D6016;
+        padding:30px 50px;
+        border-radius: 5px;
+        text-align: center;
+        transition: 0.5s;
+        
+    }
+    .singlevision i{
+        color: #FBC02D;
+        font-size: 30px;
+
+    }
+    .singlevision:hover{
+        background-color: #fff;
+        cursor: pointer;
+
+    }.singlevision:hover span{
+        color: #000;
+
+    }
+    .singlevision span{
+        color: #fff;
+        display: block;
+        font-size: 28px;
+            font-weight: 500;
+            font-family: 'Outfit', sans-serif;
+    }
+    .white{
+        background-color: #fff;
+        
+    }
+    .white span{
+        color: #000;
+        
+    }
+    .sign{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .signame span{
+font-size: 20px;
+    }
+    #Champion{
+  
+
+        
+        padding: 50px 0;
+       
+    }
+    /* #Champion::after{
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    } */
+ .chemptitle   h3{
+        color:black;
+    font-size: 28px;
+        font-weight: 600;
+        font-family: 'Outfit', sans-serif;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    .chemptitle h3::after{
+        height: 4px;
+        left: 0;
+        position: absolute;
+        content: "";
+        bottom: 3px;
+        background: #fbc02d;
+        width: 50%;
+    
+    
+        
+    }
+    .chemptitle h3::before{
+        height: 4px;
+        right: 0;
+        position: absolute;
+        content: "";
+      bottom: 3px;
+        background: #999999;
+        width: 50%;
+        
+        
+    }
+    .singlechemp{
+        position: relative;
+        margin-right: 30px;
+
+    }
+    .singlechemp:hover .chempdes{
+        bottom: 0;
+     
+    }
+    .singlechemp:hover {
+        cursor: pointer;
+     
+    }
+    .singlechemp img{
+        width: 100%;
+        position: relative;
+    }
+    .chempdes{
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+       width: 100%;
+       text-align: center;
+       background-color: rgba(251, 192, 45, 0.8);
+       padding: 15px 0;
+       transition: 0.5s !important; 
+    
+    }
+  .chempdes h4{
+    font-size: 28px;
+  }
+  #Brand{
+    background-image: url(/images/awards-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10vh 0;
+    z-index: 2;
+}
+#Brand::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+.singlebrand{
+    border: 1px solid #886b2e;
+   
+    padding: 18px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+#Footer {
+    background-color: #000;
+        padding: 100px;
+        position: relative;
+        z-index: 1;
+      }
+      #Footer::before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #000000;
+        opacity: 0.7;
+      }
+      #Footer .container .row .singleFooterArea {
+        text-align: left;
+      }
+      #Footer .container .row .singleFooterArea h5 {
+        font-size: 28px;
+        font-family: "Playfair Display", serif;
+        color: #fff;
+        margin-bottom: 30px;
+      }
+      #Footer .container .row .singleFooterArea ul {
+        padding: 0;
+      }
+      #Footer .container .row .singleFooterArea ul li {
+        line-height: 45px;
+        list-style: none;
+        text-decoration: none;
+        font-size: 23px;
+        color: #AAAAAA;
+        font-family: "Source Sans Pro", sans-serif;
+      }
+      #Footer .container .row .singleFooterArea ul li i {
+        margin-right: 10px;
+      }
+      #Footer .container .row .singleFooterArea ul li a {
+        text-decoration: none;
+        font-size: 23px;
+        color: #AAAAAA;
+        font-family: "Source Sans Pro", sans-serif;
+      }/*# sourceMappingURL=style.css.map */
